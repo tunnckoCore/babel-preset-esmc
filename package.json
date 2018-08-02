@@ -38,7 +38,7 @@
   },
   "devDependencies": {
     "asia": "^0.19.7",
-    "eslint": "^5.0.0",
+    "eslint": "^4.1.19",
     "eslint-config-esmc": "^1.0.2",
     "gitcommit": "^1.0.9",
     "new-release": "^4.0.3",
@@ -59,7 +59,13 @@
     "extends": "esmc"
   },
   "renovate": {
-    "extends": "tunnckocore"
+    "extends": "tunnckocore",
+    "packageRules": [
+      {
+        "packageNames": ["eslint"],
+        "allowedVersions": "< 5"
+      }
+    ]
   },
   "nyc": {
     "statements": 100,
