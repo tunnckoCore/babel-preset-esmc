@@ -1,0 +1,108 @@
+{
+  "name": "babel-preset-esmc",
+  "description": "Sharebale and the default Babel preset for the `esmc` compiler",
+  "license": "Apache-2.0",
+  "licenseStart": "2018",
+  "scripts": {
+    "lint": "eslint src test --fix --quiet",
+    "test": "nyc asia",
+    "gitadd": "git status --porcelain && git add -A",
+    "commit-dry": "yarn gitadd && gitcommit -sS",
+    "precommit": "yarn lint && yarn test && yarn gitadd",
+    "commit": "gitcommit -sS"
+  },
+  "engines": {
+    "node": "^8.9.0 || ^10.6.0"
+  },
+  "dependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.0.0-beta.55",
+    "@babel/plugin-proposal-decorators": "^7.0.0-beta.55",
+    "@babel/plugin-proposal-do-expressions": "^7.0.0-beta.55",
+    "@babel/plugin-proposal-export-default-from": "^7.0.0-beta.55",
+    "@babel/plugin-proposal-export-namespace-from": "^7.0.0-beta.55",
+    "@babel/plugin-proposal-function-bind": "^7.0.0-beta.55",
+    "@babel/plugin-proposal-function-sent": "^7.0.0-beta.55",
+    "@babel/plugin-proposal-logical-assignment-operators": "^7.0.0-beta.55",
+    "@babel/plugin-proposal-nullish-coalescing-operator": "^7.0.0-beta.55",
+    "@babel/plugin-proposal-numeric-separator": "^7.0.0-beta.55",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0-beta.55",
+    "@babel/plugin-proposal-optional-chaining": "^7.0.0-beta.55",
+    "@babel/plugin-proposal-pipeline-operator": "^7.0.0-beta.55",
+    "@babel/plugin-proposal-throw-expressions": "^7.0.0-beta.55",
+    "@babel/plugin-syntax-dynamic-import": "^7.0.0-beta.55",
+    "@babel/plugin-syntax-import-meta": "^7.0.0-beta.55",
+    "@babel/preset-env": "^7.0.0-beta.55",
+    "@babel/preset-flow": "^7.0.0-beta.55",
+    "@babel/preset-react": "^7.0.0-beta.55",
+    "fast-async": "^7.0.6"
+  },
+  "devDependencies": {
+    "asia": "^0.19.7",
+    "eslint": "^5.2.0",
+    "eslint-config-esmc": "^1.0.2",
+    "gitcommit": "^1.0.9",
+    "new-release": "^4.0.3",
+    "nyc": "^12.0.2"
+  },
+  "files": [
+    "src"
+  ],
+  "main": "src/index.js",
+  "version": "0.0.0-semantically-released",
+  "repository": "olstenlarck/babel-preset-esmc",
+  "homepage": "https://github.com/olstenlarck/babel-preset-esmc",
+  "author": "Charlike Mike Reagent (https://tunnckocore.com)",
+  "publishConfig": {
+    "access": "public"
+  },
+  "eslintConfig": {
+    "extends": "esmc"
+  },
+  "renovate": {
+    "extends": "tunnckocore"
+  },
+  "nyc": {
+    "statements": 0,
+    "functions": 0,
+    "branches": 0,
+    "lines": 0,
+    "cache": true,
+    "check-coverage": true,
+    "reporter": [
+      "lcov",
+      "text"
+    ],
+    "exclude": [
+      "test"
+    ]
+  },
+  "verb": {
+    "run": true,
+    "toc": {
+      "render": true,
+      "method": "preWrite",
+      "maxdepth": 3,
+      "footer": ""
+    },
+    "layout": "empty",
+    "tasks": [
+      "readme"
+    ],
+    "related": {
+      "list": [
+        "asia",
+        "gitcommit",
+        "new-release",
+        "xaxa",
+        "charlike"
+      ]
+    },
+    "lint": {
+      "reflinks": true
+    },
+    "reflinks": [
+      "new-release",
+      "semantic-release"
+    ]
+  }
+}
