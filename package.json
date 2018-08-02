@@ -59,7 +59,13 @@
     "extends": "esmc"
   },
   "renovate": {
-    "extends": "tunnckocore"
+    "extends": "tunnckocore",
+    "packageRules": [
+      {
+        "packageNames": ["eslint"],
+        "allowedVersions": "< 5"
+      }
+    ]
   },
   "nyc": {
     "statements": 100,
