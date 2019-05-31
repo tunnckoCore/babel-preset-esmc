@@ -175,6 +175,10 @@
   version "7.0.0-beta.55"
   resolved "https://registry.yarnpkg.com/@babel/helper-plugin-utils/-/helper-plugin-utils-7.0.0-beta.55.tgz#31f40777efd6b961da8496a923c22d2b062b3f73"
 
+"@babel/helper-plugin-utils@^7.0.0":
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/@babel/helper-plugin-utils/-/helper-plugin-utils-7.0.0.tgz#bbb3fbee98661c569034237cc03967ba99b4f250"
+
 "@babel/helper-regex@7.0.0-beta.55":
   version "7.0.0-beta.55"
   resolved "https://registry.yarnpkg.com/@babel/helper-regex/-/helper-regex-7.0.0-beta.55.tgz#74e6c063d1ef9f7e58b7a84c06e6ee4a5bb5a5da"
@@ -344,11 +348,11 @@
     "@babel/plugin-syntax-nullish-coalescing-operator" "7.0.0-beta.55"
 
 "@babel/plugin-proposal-numeric-separator@^7.0.0-beta.55":
-  version "7.0.0-beta.55"
-  resolved "https://registry.yarnpkg.com/@babel/plugin-proposal-numeric-separator/-/plugin-proposal-numeric-separator-7.0.0-beta.55.tgz#4483e52c15cc2d1bc7ad31be49d751c04ca428e1"
+  version "7.2.0"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-proposal-numeric-separator/-/plugin-proposal-numeric-separator-7.2.0.tgz#646854daf4cd22fd6733f6076013a936310443ac"
   dependencies:
-    "@babel/helper-plugin-utils" "7.0.0-beta.55"
-    "@babel/plugin-syntax-numeric-separator" "7.0.0-beta.55"
+    "@babel/helper-plugin-utils" "^7.0.0"
+    "@babel/plugin-syntax-numeric-separator" "^7.2.0"
 
 "@babel/plugin-proposal-object-rest-spread@7.0.0-beta.55", "@babel/plugin-proposal-object-rest-spread@^7.0.0-beta.55":
   version "7.0.0-beta.55"
@@ -477,11 +481,11 @@
   dependencies:
     "@babel/helper-plugin-utils" "7.0.0-beta.55"
 
-"@babel/plugin-syntax-numeric-separator@7.0.0-beta.55":
-  version "7.0.0-beta.55"
-  resolved "https://registry.yarnpkg.com/@babel/plugin-syntax-numeric-separator/-/plugin-syntax-numeric-separator-7.0.0-beta.55.tgz#0b829102a3f184a4ccbcb463478dfd8d2134665a"
+"@babel/plugin-syntax-numeric-separator@^7.2.0":
+  version "7.2.0"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-syntax-numeric-separator/-/plugin-syntax-numeric-separator-7.2.0.tgz#7470fe070c2944469a756752a69a6963135018be"
   dependencies:
-    "@babel/helper-plugin-utils" "7.0.0-beta.55"
+    "@babel/helper-plugin-utils" "^7.0.0"
 
 "@babel/plugin-syntax-object-rest-spread@7.0.0-beta.55":
   version "7.0.0-beta.55"
