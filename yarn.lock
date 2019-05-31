@@ -358,11 +358,11 @@
     "@babel/plugin-syntax-do-expressions" "^7.2.0"
 
 "@babel/plugin-proposal-export-default-from@^7.0.0-beta.55":
-  version "7.0.0-beta.55"
-  resolved "https://registry.yarnpkg.com/@babel/plugin-proposal-export-default-from/-/plugin-proposal-export-default-from-7.0.0-beta.55.tgz#1bb6789c80087f77a2a7484a8e6183b6f07de5cb"
+  version "7.2.0"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-proposal-export-default-from/-/plugin-proposal-export-default-from-7.2.0.tgz#737b0da44b9254b6152fe29bb99c64e5691f6f68"
   dependencies:
-    "@babel/helper-plugin-utils" "7.0.0-beta.55"
-    "@babel/plugin-syntax-export-default-from" "7.0.0-beta.55"
+    "@babel/helper-plugin-utils" "^7.0.0"
+    "@babel/plugin-syntax-export-default-from" "^7.2.0"
 
 "@babel/plugin-proposal-export-namespace-from@^7.0.0-beta.55":
   version "7.0.0-beta.55"
@@ -487,11 +487,11 @@
   dependencies:
     "@babel/helper-plugin-utils" "7.0.0-beta.55"
 
-"@babel/plugin-syntax-export-default-from@7.0.0-beta.55":
-  version "7.0.0-beta.55"
-  resolved "https://registry.yarnpkg.com/@babel/plugin-syntax-export-default-from/-/plugin-syntax-export-default-from-7.0.0-beta.55.tgz#78c9621a01df5aa2892bfe45911cc55bf45f9982"
+"@babel/plugin-syntax-export-default-from@^7.2.0":
+  version "7.2.0"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-syntax-export-default-from/-/plugin-syntax-export-default-from-7.2.0.tgz#edd83b7adc2e0d059e2467ca96c650ab6d2f3820"
   dependencies:
-    "@babel/helper-plugin-utils" "7.0.0-beta.55"
+    "@babel/helper-plugin-utils" "^7.0.0"
 
 "@babel/plugin-syntax-export-namespace-from@7.0.0-beta.55":
   version "7.0.0-beta.55"
