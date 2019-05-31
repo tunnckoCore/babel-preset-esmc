@@ -175,6 +175,10 @@
   version "7.0.0-beta.55"
   resolved "https://registry.yarnpkg.com/@babel/helper-plugin-utils/-/helper-plugin-utils-7.0.0-beta.55.tgz#31f40777efd6b961da8496a923c22d2b062b3f73"
 
+"@babel/helper-plugin-utils@^7.0.0":
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/@babel/helper-plugin-utils/-/helper-plugin-utils-7.0.0.tgz#bbb3fbee98661c569034237cc03967ba99b4f250"
+
 "@babel/helper-regex@7.0.0-beta.55":
   version "7.0.0-beta.55"
   resolved "https://registry.yarnpkg.com/@babel/helper-regex/-/helper-regex-7.0.0-beta.55.tgz#74e6c063d1ef9f7e58b7a84c06e6ee4a5bb5a5da"
@@ -372,11 +376,11 @@
     "@babel/plugin-syntax-optional-chaining" "7.0.0-beta.55"
 
 "@babel/plugin-proposal-pipeline-operator@^7.0.0-beta.55":
-  version "7.0.0-beta.55"
-  resolved "https://registry.yarnpkg.com/@babel/plugin-proposal-pipeline-operator/-/plugin-proposal-pipeline-operator-7.0.0-beta.55.tgz#5ec0d878fc32d0bce2c10f8b11c743cb1c9da612"
+  version "7.3.2"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-proposal-pipeline-operator/-/plugin-proposal-pipeline-operator-7.3.2.tgz#cc6be43c8455422f2faca39b9355558f0bff5a3f"
   dependencies:
-    "@babel/helper-plugin-utils" "7.0.0-beta.55"
-    "@babel/plugin-syntax-pipeline-operator" "7.0.0-beta.55"
+    "@babel/helper-plugin-utils" "^7.0.0"
+    "@babel/plugin-syntax-pipeline-operator" "^7.3.0"
 
 "@babel/plugin-proposal-throw-expressions@^7.0.0-beta.55":
   version "7.0.0-beta.55"
@@ -501,11 +505,11 @@
   dependencies:
     "@babel/helper-plugin-utils" "7.0.0-beta.55"
 
-"@babel/plugin-syntax-pipeline-operator@7.0.0-beta.55":
-  version "7.0.0-beta.55"
-  resolved "https://registry.yarnpkg.com/@babel/plugin-syntax-pipeline-operator/-/plugin-syntax-pipeline-operator-7.0.0-beta.55.tgz#07de0f8cb2df9df2c7c5b57c196b59caa4b78b51"
+"@babel/plugin-syntax-pipeline-operator@^7.3.0":
+  version "7.3.0"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-syntax-pipeline-operator/-/plugin-syntax-pipeline-operator-7.3.0.tgz#06146d1cd0da3bb5f8354f9ec17f13e007182709"
   dependencies:
-    "@babel/helper-plugin-utils" "7.0.0-beta.55"
+    "@babel/helper-plugin-utils" "^7.0.0"
 
 "@babel/plugin-syntax-throw-expressions@7.0.0-beta.55":
   version "7.0.0-beta.55"
