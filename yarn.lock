@@ -175,6 +175,10 @@
   version "7.0.0-beta.55"
   resolved "https://registry.yarnpkg.com/@babel/helper-plugin-utils/-/helper-plugin-utils-7.0.0-beta.55.tgz#31f40777efd6b961da8496a923c22d2b062b3f73"
 
+"@babel/helper-plugin-utils@^7.0.0":
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/@babel/helper-plugin-utils/-/helper-plugin-utils-7.0.0.tgz#bbb3fbee98661c569034237cc03967ba99b4f250"
+
 "@babel/helper-regex@7.0.0-beta.55":
   version "7.0.0-beta.55"
   resolved "https://registry.yarnpkg.com/@babel/helper-regex/-/helper-regex-7.0.0-beta.55.tgz#74e6c063d1ef9f7e58b7a84c06e6ee4a5bb5a5da"
@@ -350,12 +354,19 @@
     "@babel/helper-plugin-utils" "7.0.0-beta.55"
     "@babel/plugin-syntax-numeric-separator" "7.0.0-beta.55"
 
-"@babel/plugin-proposal-object-rest-spread@7.0.0-beta.55", "@babel/plugin-proposal-object-rest-spread@^7.0.0-beta.55":
+"@babel/plugin-proposal-object-rest-spread@7.0.0-beta.55":
   version "7.0.0-beta.55"
   resolved "https://registry.yarnpkg.com/@babel/plugin-proposal-object-rest-spread/-/plugin-proposal-object-rest-spread-7.0.0-beta.55.tgz#b611bb83901bf05196237c516a8bb1117a2a9396"
   dependencies:
     "@babel/helper-plugin-utils" "7.0.0-beta.55"
     "@babel/plugin-syntax-object-rest-spread" "7.0.0-beta.55"
+
+"@babel/plugin-proposal-object-rest-spread@^7.0.0-beta.55":
+  version "7.4.4"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-proposal-object-rest-spread/-/plugin-proposal-object-rest-spread-7.4.4.tgz#1ef173fcf24b3e2df92a678f027673b55e7e3005"
+  dependencies:
+    "@babel/helper-plugin-utils" "^7.0.0"
+    "@babel/plugin-syntax-object-rest-spread" "^7.2.0"
 
 "@babel/plugin-proposal-optional-catch-binding@7.0.0-beta.55":
   version "7.0.0-beta.55"
@@ -488,6 +499,12 @@
   resolved "https://registry.yarnpkg.com/@babel/plugin-syntax-object-rest-spread/-/plugin-syntax-object-rest-spread-7.0.0-beta.55.tgz#990ea47e790d7d9a9d28469c6bcc15f580bf19e9"
   dependencies:
     "@babel/helper-plugin-utils" "7.0.0-beta.55"
+
+"@babel/plugin-syntax-object-rest-spread@^7.2.0":
+  version "7.2.0"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-syntax-object-rest-spread/-/plugin-syntax-object-rest-spread-7.2.0.tgz#3b7a3e733510c57e820b9142a6579ac8b0dfad2e"
+  dependencies:
+    "@babel/helper-plugin-utils" "^7.0.0"
 
 "@babel/plugin-syntax-optional-catch-binding@7.0.0-beta.55":
   version "7.0.0-beta.55"
