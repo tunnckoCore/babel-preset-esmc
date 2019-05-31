@@ -1019,9 +1019,9 @@
     esm "^3.0.84"
     parse-package-name "^0.1.0"
 
-"@tunnckocore/release-cli@^1.2.0":
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/@tunnckocore/release-cli/-/release-cli-1.2.0.tgz#b425c9f157cc9287e8d02cd79cd8de28a0509d77"
+"@tunnckocore/release-cli@^1.3.1":
+  version "1.3.4"
+  resolved "https://registry.yarnpkg.com/@tunnckocore/release-cli/-/release-cli-1.3.4.tgz#833f7a9e559020b0f9552c46abff935d38cc25f2"
   dependencies:
     "@tunnckocore/execa" "^2.1.2"
     "@tunnckocore/package-json" "^1.0.1"
@@ -2992,11 +2992,12 @@ nested-error-stacks@^2.0.0:
   resolved "https://registry.yarnpkg.com/nested-error-stacks/-/nested-error-stacks-2.1.0.tgz#0fbdcf3e13fe4994781280524f8b96b0cdff9c61"
 
 new-release@^5.0.0:
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/new-release/-/new-release-5.0.0.tgz#b9ac5f8106b643053bc49d77a83c9ba87ef34628"
+  version "5.0.4"
+  resolved "https://registry.yarnpkg.com/new-release/-/new-release-5.0.4.tgz#ff68e097ee0ab197836b51970ffb4e597de00fbf"
   dependencies:
-    "@tunnckocore/release-cli" "^1.2.0"
+    "@tunnckocore/release-cli" "^1.3.1"
     esm "^3.0.84"
+    mri "^1.1.1"
 
 nice-try@^1.0.4:
   version "1.0.4"
