@@ -38,7 +38,7 @@
   },
   "devDependencies": {
     "asia": "^0.19.7",
-    "eslint": "^4.1.19",
+    "eslint": "^5.16.0",
     "eslint-config-esmc": "^1.0.2",
     "gitcommit": "^1.0.9",
     "new-release": "^5.0.0",
